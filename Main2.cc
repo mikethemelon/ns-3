@@ -53,7 +53,7 @@ int main (int argc, char *argv[])
   clientApps.Start(Seconds(2.0));
   clientApps.Stop(Seconds(10.0));
 
-  AnimationInterface anim("Main2.xml");
+  AnimationInterface anim("Main.xml"); //Run Main.xml with NetAim
 
   // Run the simulation
   Simulator::Run();
